@@ -99,6 +99,20 @@ body {
   border: 1px solid var(--border);
 }
 
+.affiliation-body {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.affiliation-body img {
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  padding: 8px;
+  background: #fff;
+}
+
 .info-grid h2 {
   margin-top: 0;
 }
