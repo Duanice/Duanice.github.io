@@ -150,6 +150,14 @@ body {
   margin-top: 0;
 }
 
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 .card p {
   color: var(--muted);
   line-height: 1.5;
