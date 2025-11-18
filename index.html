@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Duan Bingjie | Programming Languages Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="photo-card" aria-hidden="true">
+        <div class="initials">DB</div>
+      </div>
+      <div class="intro">
+        <p class="kicker">Programming Languages Lab · Peking University</p>
+        <h1>Duan Bingjie</h1>
+        <p class="subtitle">D.Eng Student · Class of 2025</p>
+        <p class="summary">
+          I am a D.Eng student in the Programming Languages Lab at Peking University, advised by
+          <a href="https://cs.pku.edu.cn/info/1004/1003.htm" target="_blank" rel="noreferrer noopener">Prof. Hu Zhenjiang</a>.
+          My academic homepage is just getting started, but I am excited to grow it into something much more substantial in the coming years.
+        </p>
+      </div>
+    </header>
+
+    <section class="info-grid">
+      <div>
+        <h2>Affiliations</h2>
+        <ul>
+          <li>Programming Languages Lab</li>
+          <li>Software Engineering Institute</li>
+          <li>School of Computer Science</li>
+          <li>Peking University</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><span>Email</span> <a href="mailto:bjduan25@stu.pku.edu.cn">bjduan25@stu.pku.edu.cn</a></li>
+          <li><span>Office</span> Beijing Daxing District, Jinyuan Road,<br/>School of Software and Microelectronics, PKU</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="spotlight">
+      <div class="card">
+        <h3>Portrait Photography</h3>
+        <p>
+          I love portrait photography. This is my portfolio, and you can check it by scanning the QR code on WeChat.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Rock Climbing & Music</h3>
+        <p>
+          Always seeking new thrills! Rock climbing and music are what truly excite me.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Duan Bingjie · Peking University</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
